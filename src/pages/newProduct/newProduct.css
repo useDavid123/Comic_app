@@ -1,0 +1,48 @@
+.newProduct{
+    flex: 4;
+}
+
+.newProductForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newProductItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newProductImg {
+    border: none;
+    border-radius: none;
+}
+
+.newProductItem > label{
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.newProductItem > input{
+    padding: 10px;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+.newProductButton{
+    width: 200px;
+    margin: 10px;
+    padding: 7px 10px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight:600;
+    border-radius: 10px;
+}

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.event {
+  flex: 4;
+  padding: 20px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+}
+.contact_button {
+  width: 63px;
+  margin-top: 10px;
+  background-color: maroon;
+  padding: 10px;
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+}
+.aboutInput {
+  padding: 12px;
+  margin-top: 10px;
+  padding-right: 20px;
+  border-radius: none;
+  width: 50% !important;
+}
